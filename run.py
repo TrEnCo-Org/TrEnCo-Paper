@@ -1,3 +1,0 @@
-import trenco as tr
-
-# 
