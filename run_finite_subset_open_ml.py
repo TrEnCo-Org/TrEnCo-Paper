@@ -57,15 +57,15 @@ def run(dataset_id, folder: Path):
     results.to_csv(results_file, index=False)
 
 datasets = [
-    # 44, # spambase
+    44, # spambase
     # 4135, # Amazon_employee_access
-    # 40982, # steel-plates-fault
+    40982, # steel-plates-fault
     41703, # MIP-2016-classification
-    # 43098, # Students_scores
-    # 43672, # Heart-Disease-Dataset-(Comprehensive)
-    # 45036, # default-of-credit-card-clients
-    # 45058, # credit-g
-    # 45068, # Adult
+    43098, # Students_scores
+    43672, # Heart-Disease-Dataset-(Comprehensive)
+    45036, # default-of-credit-card-clients
+    45058, # credit-g
+    45068, # Adult
     45578, # California-Housing-Classification
 ]
 
