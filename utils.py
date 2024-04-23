@@ -237,7 +237,7 @@ def run_fold(
             timelimit,
             verbose
         )
-        for prop in range(1, n_props + 1)
+        for prop in np.arange(1/n_props, 1 + 1/n_props, 1/n_props)
     )
     return list(map(lambda row: {**fold_row, **row}, rows)) # type: ignore
     
